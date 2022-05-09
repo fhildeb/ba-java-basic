@@ -4,6 +4,6 @@ HSMW BA Java Course for Beginners from the University of Applied Science Mittwei
 
 > **_NOTE:_** The commentary and filenames might appear in German.
 
-## Used Software
+## Tools
 
 [Eclipse](https://www.eclipse.org)
