@@ -3,37 +3,31 @@ package RateSpiel;
 import java.io.*;
 
 /**
- *  Einfache Klasse zur <B>Tastatur-Eingabe</B> von <B>Zeichenketten</B> und 
- *  <B>Zahlenwerten</B> . <BR>
- *  Beim Einlesen von Zahlenwerten werden Format-Ausnahmen ausgeloest, wenn 
- *  keine gueltige Zahl eingegeben wird. 
- *
+ * Einfache Klasse zur Tastatur-Eingabe von Zeichenketten und
+ * Zahlenwerten. Beim Einlesen von Zahlenwerten werden
+ * Format-Ausnahmen ausgeloest, wenn
+ * keine gueltige Zahl eingegeben wird.
  */
 
-public class Keyboard
-{
+public class Keyboard {
     /**
-     *  Zum Einlesen der Tastatur-Eingabe wird ein <TT>BufferedReader</TT> 
-     *  vom Standard-Eingabe-Kanal verwendet. 
+     * Zum Einlesen der Tastatur-Eingabe wird ein BufferedReader
+     * vom Standard-Eingabe-Kanal verwendet.
      */
     private static BufferedReader in = new BufferedReader(
             new InputStreamReader(System.in));
 
     /**
-     *  Lesen einer Zeichenkette von der Tastatur. Eine hier nur theoretisch 
-     *  moegliche <TT>IOException</TT> wird ohne Reaktion abgefangen. 
+     * Lesen einer Zeichenkette von der Tastatur. Eine hier nur theoretisch
+     * moegliche IOException wird ohne Reaktion abgefangen.
      *
-     * @return    eingegebene Zeichenkette 
+     * @return eingegebene Zeichenkette
      */
-    public static String readString()
-    {
+    public static String readString() {
         String s = "";
-        try
-        {
+        try {
             s = in.readLine();
-        }
-        catch (IOException e)
-        {
+        } catch (IOException e) {
             /*
              * keine Reaktion
              */
@@ -43,60 +37,54 @@ public class Keyboard
     }
 
     /**
-     *  Lesen eines <TT>int</TT> -Werts von der Tastatur. 
+     * Lesen eines int -Werts von der Tastatur.
      *
-     * @return                            eingegebener <TT>int</TT> -Wert 
-     * @exception  NumberFormatException  falls kein gueltiger <TT>int</TT> 
-     *      -Wert eingegeben wird 
+     * @return eingegebener int -Wert
+     * @exception NumberFormatException falls kein gueltiger int
+     *                                  -Wert eingegeben wird
      */
-    public static int readint() throws NumberFormatException
-    {
+    public static int readint() throws NumberFormatException {
         String s = readString();
         int n = Integer.parseInt(s);
         return n;
     }
 
     /**
-     *  Lesen eines <TT>long</TT> -Werts von der Tastatur. 
+     * Lesen eines long -Werts von der Tastatur.
      *
-     * @return                            eingegebener <TT>long</TT> -Wert 
-     * @exception  NumberFormatException  falls kein gueltiger <TT>long</TT> 
-     *      -Wert eingegeben wird 
+     * @return eingegebener long -Wert
+     * @exception NumberFormatException falls kein gueltiger long
+     *                                  -Wert eingegeben wird
      */
-    public static long readlong() throws NumberFormatException
-    {
+    public static long readlong() throws NumberFormatException {
         String s = readString();
         long n = Long.parseLong(s);
         return n;
     }
 
     /**
-     *  Lesen eines <TT>float</TT> -Werts von der Tastatur. 
+     * Lesen eines float -Werts von der Tastatur.
      *
-     * @return                            eingegebener <TT>float</TT> -Wert 
-     * @exception  NumberFormatException  falls kein gueltiger <TT>float 
-     *      </TT>-Wert eingegeben wird 
+     * @return eingegebener float -Wert
+     * @exception NumberFormatException falls kein gueltiger float
+     *                                  -Wert eingegeben wird
      */
-    public static float readfloat() throws NumberFormatException
-    {
+    public static float readfloat() throws NumberFormatException {
         String s = readString();
         float n = Float.valueOf(s).floatValue();
         return n;
     }
 
-
     /**
-     *  Lesen eines <TT>double</TT> -Werts von der Tastatur. 
+     * Lesen eines double -Werts von der Tastatur.
      *
-     * @return                            eingegebener <TT>double</TT> -Wert 
-     * @exception  NumberFormatException  falls kein gueltiger <TT>double 
-     *      </TT>-Wert eingegeben wird 
+     * @return eingegebener double -Wert
+     * @exception NumberFormatException falls kein gueltiger double
+     *                                  -Wert eingegeben wird
      */
-    public static double readdouble() throws NumberFormatException
-    {
+    public static double readdouble() throws NumberFormatException {
         String s = readString();
         double n = Double.valueOf(s).doubleValue();
         return n;
     }
 }
-

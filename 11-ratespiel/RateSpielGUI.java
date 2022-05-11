@@ -10,8 +10,6 @@ public class RateSpielGUI extends BorderPane {
 	private Menu spielMenu;
 	private MenuItem neuOpt, endeOpt;
 
-
-	
 	public RateSpielGUI() {
 
 		versuchKnopf = new Button("Versuch");
@@ -30,7 +28,7 @@ public class RateSpielGUI extends BorderPane {
 		versuchKnopf.setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
 		versuchTF.setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
 		nachrichtTF.setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
-		
+
 		// Menue-Leiste
 		menuBar = new MenuBar();
 		// Positionieren
@@ -47,61 +45,62 @@ public class RateSpielGUI extends BorderPane {
 	}
 
 	/**
-	 * Getter-Methode f&uuml;r den Button.
+	 * Getter-Methode fuer den Button.
 	 * 
 	 * @return Button
 	 */
-	
+
 	public Button getVersuchKnopf() {
 		return versuchKnopf;
 	}
-	
+
 	/**
-	 * Getter-Methode f&uuml;r das "Neues-Spiel"-Men&uuml;
+	 * Getter-Methode fuer das "Neues-Spiel"-Menue;
 	 * 
-	 * @return	Men&uuml;-Element
+	 * @return Menue-Element
 	 */
-	 
+
 	public MenuItem getNeuOpt() {
 		return neuOpt;
 	}
-	
+
 	/**
-	 * Getter-Methode f&uuml;r das "Ende"-Men&uuml;
+	 * Getter-Methode fuer das "Ende"-Menue
 	 * 
-	 * @return	Men&uuml;-Element
+	 * @return Menue-Element
 	 */
-	 
+
 	public MenuItem getEndeOpt() {
 		return endeOpt;
 	}
 
 	/**
-	 * Getter-Methode f&uuml;r den aktuellen Text im Eingabefeld versuchTF.
+	 * Getter-Methode fuer den aktuellen Text im Eingabefeld versuchTF.
 	 * 
-	 * @return	Eingabe
+	 * @return Eingabe
 	 */
-	
+
 	public String holeVersuch() {
 		return versuchTF.getText();
 	}
 
 	/**
-	 * Setter-Methode f&uuml;r den Text im Ausgabefeld nachrichtTF.
+	 * Setter-Methode fuer den Text im Ausgabefeld nachrichtTF.
 	 * 
-	 * @param nachricht	Aausgabe
+	 * @param nachricht Aausgabe
 	 */
-	
+
 	public void ausgabeNachricht(String nachricht) {
 		nachrichtTF.setText(nachricht);
 	}
 
 	/**
-	 * Hilfsmethode zum Aktivieren und Deaktivieren des Buttons und Eingabe-Textfeldes.
+	 * Hilfsmethode zum Aktivieren und Deaktivieren des Buttons und
+	 * Eingabe-Textfeldes.
 	 * 
-	 * @param bool	Aktivierung (true) oder Deaktivierung (false)
+	 * @param bool Aktivierung (true) oder Deaktivierung (false)
 	 */
-	
+
 	public void setEnabled(boolean bool) {
 		versuchKnopf.setDisable(!bool);
 		versuchTF.setDisable(!bool);

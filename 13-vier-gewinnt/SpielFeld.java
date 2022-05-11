@@ -45,7 +45,6 @@ public class SpielFeld extends BorderPane {
         ROT = 1;
         GRUEN = 2;
 
-
         // Initialisierung des Labels am oberen Rand
         display = new Label("Rot beginnt!");
         labelBox = new HBox(display);
@@ -87,10 +86,10 @@ public class SpielFeld extends BorderPane {
     }
 
     /**
-     * Getter-Methode f&uuml;r den Button der i-ten Spalte.
+     * Getter-Methode fuer den Button der i-ten Spalte.
      * 
-     * @param i     Spaltennummer (- 1)
-     * @return      Butten in der i(- 1)ten Spalte
+     * @param i Spaltennummer (- 1)
+     * @return Butten in der i(- 1)ten Spalte
      */
 
     public Button getButton(int i) {
@@ -98,7 +97,7 @@ public class SpielFeld extends BorderPane {
     }
 
     /**
-     * Setter-Methode f&uuml;r den i-ten Spielstein.
+     * Setter-Methode fuer den i-ten Spielstein.
      * 
      * @param i     Spielsteinnummer (- 1)
      * @param farbe Farbe des neuen Spielsteins
@@ -117,8 +116,8 @@ public class SpielFeld extends BorderPane {
     }
 
     /**
-     * &Auml;ndert das <em>display</em>-Label entsprechend dem aktuellen Spieler.
-     * Dabei wird au&szlig;erdem die Farbe des Labels angepasst.
+     * Aendert das display-Label entsprechend dem aktuellen Spieler.
+     * Dabei wird ausserdem die Farbe des Labels angepasst.
      * 
      * @param farbe Farbe des derzeitigen Spielers
      */
@@ -134,11 +133,11 @@ public class SpielFeld extends BorderPane {
     }
 
     /**
-     * Reagiert auf den Sieg eines Spielers.
-     * Das <em>display</em>-Label wird entsprechend der Farbe gesetzt und die 
+     * Reagiert auf den Sieg eines Spiels * Das display-Label wird entsprechend der
+     * Farbe gesetzt und die
      * Buttons gesperrt.
-     * Wenn die Farbe weder <em>ROT</em> noch <em>GR&Uuml;N</em> ist, wird
-     * das Label wei&szlig; gef&auml;rbt und <i>"Unentschieden"</i> angezeigt.
+     * Wenn gleich viele Farben rot und gruen sind wird
+     * das Label weiss gefaerbt und "Unentschieden" angezeigt.
      * 
      * @param farbe Farbe des Gewinners
      */
@@ -161,9 +160,9 @@ public class SpielFeld extends BorderPane {
     }
 
     /**
-     * Bereitet ein neues Spiel vor.
-     * Das <em>display</em>-Label wird zur&uuml;ckgesetzt, die Buttons entsperrt 
-     * und die Spieldelder grau gef&auml;rbt.
+     * Bereitet ein neues Spiel vor. Das display-Label wird zurueckgesetzt, die
+     * Buttons entsperrt
+     * und die Spieldelder grau gefaerbt.
      */
 
     public void neuesSpiel() {
@@ -180,7 +179,7 @@ public class SpielFeld extends BorderPane {
     }
 
     /**
-     * Gibt eine Fehlermeldung auf dem <em>display</em>-Label aus.
+     * Gibt eine Fehler auf dem display-Label aus.
      * 
      * @param fehlermeldung auszugebende Fehlermeldung
      */

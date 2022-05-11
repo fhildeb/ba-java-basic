@@ -5,7 +5,7 @@ import java.awt.event.*;
 import java.util.*;
 
 /**
- * Die Klasse Display liefert eine Grafikanzeige mit Koordinatensystem 
+ * Die Klasse Display liefert eine Grafikanzeige mit Koordinatensystem
  * und kann Objekte der Klasse Punkt darstellen.
  * 
  */
@@ -45,9 +45,9 @@ public class Display extends Frame {
 	 * Konstruktor
 	 * 
 	 * @param width
-	 *            Breite der Anzeige
+	 *               Breite der Anzeige
 	 * @param height
-	 *            Hoehe der Anzeige
+	 *               Hoehe der Anzeige
 	 */
 	public Display(int width, int height) {
 		this.width = width;
@@ -71,27 +71,27 @@ public class Display extends Frame {
 
 		// Listener fuer Fensterereignisse
 		addWindowListener(
-		// anonymer WindowAdapter
-		new WindowAdapter() {
-			/**
-			 * Reaktion auf Ereignis "Fenster schliessen"
-			 * 
-			 * @param e
-			 *            WindowsEvent
-			 */
-			public void windowClosing(WindowEvent e) {
-				setVisible(false);
-				dispose();
-				System.exit(0);
-			}
-		});
+				// anonymer WindowAdapter
+				new WindowAdapter() {
+					/**
+					 * Reaktion auf Ereignis "Fenster schliessen"
+					 * 
+					 * @param e
+					 *          WindowsEvent
+					 */
+					public void windowClosing(WindowEvent e) {
+						setVisible(false);
+						dispose();
+						System.exit(0);
+					}
+				});
 	}
 
 	/**
 	 * update() wird als Reaktion auf repaint() aufgerufen
 	 * 
 	 * @param g
-	 *            Grahpik-Kontext
+	 *          Grahpik-Kontext
 	 */
 	public void update(Graphics g) {
 		paint(g);
@@ -101,7 +101,7 @@ public class Display extends Frame {
 	 * Zeichnen des Frames
 	 * 
 	 * @param g
-	 *            Grahpik-Kontext
+	 *          Grahpik-Kontext
 	 */
 	public void paint(Graphics g) {
 		if (dbimage == null) {
@@ -160,7 +160,7 @@ public class Display extends Frame {
 	 * Punkt anzeigen
 	 * 
 	 * @param p
-	 *            der anzuzeigende Punkt
+	 *          der anzuzeigende Punkt
 	 */
 	public void show(Punkt p) {
 		if (p != null) {
@@ -172,8 +172,7 @@ public class Display extends Frame {
 	/**
 	 * Punkt verbergen
 	 * 
-	 * @param p
-	 *            der zu verbergende Punkt
+	 * @param p der zu verbergende Punkt
 	 */
 	public void hide(Punkt p) {
 		if (p != null) {

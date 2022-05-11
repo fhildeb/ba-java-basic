@@ -40,8 +40,8 @@ public class Keyboard {
 	 * Lesen eines int-Werts von der Tastatur.
 	 * 
 	 * @return eingegebener int -Wert
-	 * @exception NumberFormatException
-	 *                falls kein gueltiger int-Wert eingegeben wird
+	 * @exception NumberFormatException falls kein gueltiger int-Wert eingegeben
+	 *                                  wird
 	 */
 	public static int readint() throws NumberFormatException {
 		String s = readString();
@@ -53,8 +53,8 @@ public class Keyboard {
 	 * Lesen eines long-Werts von der Tastatur.
 	 * 
 	 * @return eingegebener long -Wert
-	 * @exception NumberFormatException
-	 *                falls kein gueltiger long-Wert eingegeben wird
+	 * @exception NumberFormatException falls kein gueltiger long-Wert eingegeben
+	 *                                  wird
 	 */
 	public static long readlong() throws NumberFormatException {
 		String s = readString();
@@ -66,8 +66,8 @@ public class Keyboard {
 	 * Lesen eines float-Werts von der Tastatur.
 	 * 
 	 * @return eingegebener float -Wert
-	 * @exception NumberFormatException
-	 *                falls kein gueltiger float -Wert eingegeben wird
+	 * @exception NumberFormatException falls kein gueltiger float -Wert eingegeben
+	 *                                  wird
 	 */
 	public static float readfloat() throws NumberFormatException {
 		String s = readString();
@@ -79,8 +79,8 @@ public class Keyboard {
 	 * Lesen eines double-Werts von der Tastatur.
 	 * 
 	 * @return eingegebener double -Wert
-	 * @exception NumberFormatException
-	 *                falls kein gueltiger double -Wert eingegeben wird
+	 * @exception NumberFormatException falls kein gueltiger double -Wert eingegeben
+	 *                                  wird
 	 */
 	public static double readdouble() throws NumberFormatException {
 		String s = readString();

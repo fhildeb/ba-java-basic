@@ -49,12 +49,14 @@ public class Ball {
 
         KeyFrame moveBall = new KeyFrame(Duration.millis(intervall), new EventHandler<ActionEvent>() {
             public void handle(ActionEvent event) {
-                if (((circle.getCenterX() + dx < r) && (dx < 0)) || ((circle.getCenterX() + dx > animationPane.getWidth() - r) && (dx > 0))) {
+                if (((circle.getCenterX() + dx < r) && (dx < 0))
+                        || ((circle.getCenterX() + dx > animationPane.getWidth() - r) && (dx > 0))) {
                     dx = -dx;
                 }
                 circle.setCenterX(circle.getCenterX() + dx);
-                
-                if (((circle.getCenterY() + dy < r) && (dy < 0)) || ((circle.getCenterY() + dy > animationPane.getHeight() - r) && (dy > 0))) {
+
+                if (((circle.getCenterY() + dy < r) && (dy < 0))
+                        || ((circle.getCenterY() + dy > animationPane.getHeight() - r) && (dy > 0))) {
                     dy = -dy;
                 }
                 circle.setCenterY(circle.getCenterY() + dy);
@@ -79,7 +81,8 @@ public class Ball {
 
         Label status = new Label("Animation wurde gestartet.");
 
-        Button play = new Button("Start"), pause = new Button("Pause"), stop = new Button("Stopp"), restart = new Button("Restart");
+        Button play = new Button("Start"), pause = new Button("Pause"), stop = new Button("Stopp"),
+                restart = new Button("Restart");
         play.addEventHandler(ActionEvent.ACTION, new EventHandler<ActionEvent>() {
             public void handle(ActionEvent e) {
                 tl.play();

@@ -5,59 +5,56 @@ import java.awt.event.*;
 import java.util.*;
 
 /**
- * die Klasse  Display
+ * die Klasse Display
  * liefert eine Grafikanzeige mit Koordinatensystem und kann
- * Objekte der Klassen Punkt und  Rechteck darstellen
+ * Objekte der Klassen Punkt und Rechteck darstellen
  *
  * 
  */
 
-public class Display extends Frame
-{
+public class Display extends Frame {
+
+    private static final long serialVersionUID = 2706861880458796149L;
+
     /**
-	 * 
-	 */
-	private static final long serialVersionUID = 2706861880458796149L;
-	/**
-     *  Dimensionen des Anzeigebereichs
+     * Dimensionen des Anzeigebereichs
      */
     int width;
     int height;
 
     /**
-     *  Durchmesser fuer Punkte und Achsenmarkierungen
+     * Durchmesser fuer Punkte und Achsenmarkierungen
      */
     int pixnum = 4;
 
     /**
-     *  Hintergrundbild zur Doppelpufferung
+     * Hintergrundbild zur Doppelpufferung
      */
     Image dbimage;
 
     /**
-     *  Hintergrund-Graphikkontext
+     * Hintergrund-Graphikkontext
      */
     Graphics dbgraphics;
 
     /**
-     *  darzustellende Punkte
+     * darzustellende Punkte
      */
     Vector<Punkt> punkte;
 
     /**
-    * darzustellende Rechtecke
-    */
+     * darzustellende Rechtecke
+     */
 
     Vector<Rechteck> rechtecke;
 
     /**
-     *  Konstruktor
+     * Konstruktor
      *
-     * @param  width   Breite der Anzeige
-     * @param  height  Hoehe der Anzeige
+     * @param width  Breite der Anzeige
+     * @param height Hoehe der Anzeige
      */
-    public Display(int width, int height)
-    {
+    public Display(int width, int height) {
         this.width = width;
         this.height = height;
 
@@ -80,43 +77,37 @@ public class Display extends Frame
 
         // Listener fuer Fensterereignisse
         addWindowListener(
-            // anonymer WindowAdapter
-            new WindowAdapter()
-            {
-                /**
-                 *  Reaktion auf Ereignis "Fenster schliessen"
-                 *
-                 * @param  e  WindowsEvent
-                 */
-                public void windowClosing(WindowEvent e)
-                {
-                    setVisible(false);
-                    dispose();
-                    System.exit(0);
-                }
-            }
-                );
+                // anonymer WindowAdapter
+                new WindowAdapter() {
+                    /**
+                     * Reaktion auf Ereignis "Fenster schliessen"
+                     *
+                     * @param e WindowsEvent
+                     */
+                    public void windowClosing(WindowEvent e) {
+                        setVisible(false);
+                        dispose();
+                        System.exit(0);
+                    }
+                });
     }
 
     /**
-     *  update() wird als Reaktion auf repaint() aufgerufen
+     * update() wird als Reaktion auf repaint() aufgerufen
      *
-     * @param  g  Grahpik-Kontext
+     * @param g Grahpik-Kontext
      */
-    public void update(Graphics g)
-    {
+    public void update(Graphics g) {
         paint(g);
     }
 
     /**
-     *  Zeichnen des Frames
+     * Zeichnen des Frames
      *
-     * @param  g  Grahpik-Kontext
+     * @param g Grafik-Kontext
      */
-    public void paint(Graphics g)
-    {
-        if (dbimage == null)
-        {
+    public void paint(Graphics g) {
+        if (dbimage == null) {
             return;
         }
 
@@ -127,8 +118,7 @@ public class Display extends Frame
         Punkt p;
         Enumeration<Punkt> ps = punkte.elements();
 
-        while (ps.hasMoreElements())
-        {
+        while (ps.hasMoreElements()) {
             p = ps.nextElement();
             // 10-fache Vergroesserung
             int x = (int) (10 * p.getx());
@@ -140,12 +130,11 @@ public class Display extends Frame
 
         }
 
-        // auf Hintergrundbild: alle Rechtecke  zeichnen
+        // auf Hintergrundbild: alle Rechtecke zeichnen
         Rechteck r;
         Enumeration<Rechteck> rs = rechtecke.elements();
 
-        while (rs.hasMoreElements())
-        {
+        while (rs.hasMoreElements()) {
             r = rs.nextElement();
             // 10-fache Vergroesserung der Koordinaten der linken oberen Ecke des Rechtecks
             int x = (int) (10 * r.getStartpunkt().getx());
@@ -155,14 +144,15 @@ public class Display extends Frame
             int h = (int) (10 * r.getHoehe());
 
             // auf Hintergrundbild Rechteck zeichnen
-            dbgraphics.drawRect(width/2+ x, height/2 - y, b, h);
+            dbgraphics.drawRect(width / 2 + x, height / 2 - y, b, h);
 
             // 10-fache Vergroesserung des Startpunktes (linke untere Ecke)
             int startx = (int) (10 * r.getStartpunkt().getx());
             int starty = (int) (10 * r.getStartpunkt().gety());
 
             // Startpunkt "dick" darstellen
-            dbgraphics.drawString(r.getStartpunkt().toString(), width / 2 + (startx + pixnum), height / 2 - (starty + pixnum));
+            dbgraphics.drawString(r.getStartpunkt().toString(), width / 2 + (startx + pixnum),
+                    height / 2 - (starty + pixnum));
             dbgraphics.fillOval(width / 2 + (startx - pixnum), height / 2 - (starty + pixnum), 2 * pixnum, 2 * pixnum);
 
         }
@@ -175,15 +165,13 @@ public class Display extends Frame
 
         // x-Achsen-Markierungen
         int i;
-        for (i = 10; i <= width / 2; i = i + 10)
-        {
+        for (i = 10; i <= width / 2; i = i + 10) {
             dbgraphics.drawLine(width / 2 + i, height / 2 - pixnum, width / 2 + i, height / 2 + pixnum);
             dbgraphics.drawLine(width / 2 - i, height / 2 - pixnum, width / 2 - i, height / 2 + pixnum);
         }
 
         // y-Achsen-Markierungen
-        for (i = 10; i <= height / 2; i = i + 10)
-        {
+        for (i = 10; i <= height / 2; i = i + 10) {
             dbgraphics.drawLine(width / 2 + pixnum, height / 2 - i, width / 2 - pixnum, height / 2 - i);
             dbgraphics.drawLine(width / 2 + pixnum, height / 2 + i, width / 2 - pixnum, height / 2 + i);
         }
@@ -193,56 +181,48 @@ public class Display extends Frame
     }
 
     /**
-     *  Punkt anzeigen
+     * Punkt anzeigen
      *
-     * @param  p  der anzuzeigende Punkt
+     * @param p der anzuzeigende Punkt
      */
-    public void show(Punkt p)
-    {
-        if (p != null)
-        {
+    public void show(Punkt p) {
+        if (p != null) {
             punkte.insertElementAt(p, 0);
             repaint();
         }
     }
 
     /**
-     *  Rechteck anzeigen
+     * Rechteck anzeigen
      *
-     * @param  r das anzuzeigende Rechteck
+     * @param r das anzuzeigende Rechteck
      */
-    public void show(Rechteck r)
-    {
-        if (r != null)
-        {
+    public void show(Rechteck r) {
+        if (r != null) {
             rechtecke.insertElementAt(r, 0);
             repaint();
         }
     }
 
     /**
-     *  Punkt verbergen
+     * Punkt verbergen
      *
-     * @param  p  der zu verbergende Punkt
+     * @param p der zu verbergende Punkt
      */
-    public void hide(Punkt p)
-    {
-        if (p != null)
-        {
+    public void hide(Punkt p) {
+        if (p != null) {
             punkte.removeElement(p);
             repaint();
         }
     }
 
     /**
-     *  Rechteck verbergen
+     * Rechteck verbergen
      *
-     * @param  r das  zu verbergende Rechteck
+     * @param r das zu verbergende Rechteck
      */
-    public void hide(Rechteck r)
-    {
-        if (r != null)
-        {
+    public void hide(Rechteck r) {
+        if (r != null) {
             rechtecke.removeElement(r);
             repaint();
         }
