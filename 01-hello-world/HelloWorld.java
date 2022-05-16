@@ -1,6 +1,6 @@
-package Hello_World;
+package HelloWorld;
 
-public class Hello_World {
+public class HelloWorld {
 	public static void main(String[] args) {
 		// Ausgabe Zeichenkette
 		System.out.println("Hallo");
