@@ -1,8 +1,9 @@
 package Datum;
 
-public class DatumTester1 {
+public class DatumTesterZwei {
 
 	public static void main(String[] args) {
+
 		int[] datum = { 1, 8, 1914 };
 		Datum d1 = new Datum(datum);
 		Datum d2 = new Datum("22.06.1941");

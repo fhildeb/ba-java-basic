@@ -7,3 +7,11 @@ HSMW BA Java Course for Beginners from the University of Applied Science Mittwei
 ## Tools
 
 [Eclipse](https://www.eclipse.org)
+[JavaFX](https://openjfx.io/)
+
+## Run in Terminal
+
+```bash
+javac *.java
+java [MainFileName]
+```
