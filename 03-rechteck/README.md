@@ -4,7 +4,7 @@
 
 ![RechteckTester GUI](../img/03-rechteck.png)
 
-## Terminal 
+## Terminal Output
 
 ```bash
 Startwerte Rechteck 1: Startpunkt: (1.0|2.0), Hoehe: 3.0, Breite: 4.0

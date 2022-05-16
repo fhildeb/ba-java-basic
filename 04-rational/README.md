@@ -1,6 +1,6 @@
 # RationalTester (Main)
 
-## Terminal
+## Terminal Output
 
 ```bash
 R1 in Dezimalschreibweise: 4.0

@@ -1,14 +1,14 @@
-# Hello_World (Main)
+# HelloWorld (Main)
 
-## Terminal
+## Terminal Output
 
 ```bash
 Hallo
 ```
 
-# Hello_Keyboard (Main)
+# HelloKeyboard (Main)
 
-## Terminal
+## Terminal Output
 
 ```bash
 Eingabe:

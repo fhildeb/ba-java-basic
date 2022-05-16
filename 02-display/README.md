@@ -4,7 +4,7 @@
 
 ![PunktTester GUI](../img/02-display.png)
 
-## Terminal 
+## Terminal Output
 
 ```bash
 Startwert Punkt 2: (1.0|2.0)X: 1.0| Y: 2.0
