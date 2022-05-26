@@ -1,4 +1,4 @@
-package RateSpiel;
+package ratespiel;
 
 import java.io.*;
 

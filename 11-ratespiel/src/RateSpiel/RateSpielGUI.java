@@ -1,4 +1,4 @@
-package RateSpiel;
+package ratespiel;
 
 import javafx.scene.layout.BorderPane;
 import javafx.scene.control.*;

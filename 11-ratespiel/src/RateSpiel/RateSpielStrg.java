@@ -1,4 +1,4 @@
-package RateSpiel;
+package ratespiel;
 
 import javafx.application.Platform;
 import javafx.event.*;

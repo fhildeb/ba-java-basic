@@ -1,4 +1,4 @@
-package Rechteck;
+package rechteck;
 
 public class Rechteck {
 	// Deklarieren der Variablen

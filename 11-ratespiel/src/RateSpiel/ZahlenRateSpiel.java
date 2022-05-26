@@ -1,4 +1,4 @@
-package RateSpiel;
+package ratespiel;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

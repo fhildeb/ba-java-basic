@@ -1,4 +1,4 @@
-package Rational;
+package rational;
 
 public class RationalTester {
 	public static void main(String[] args) {

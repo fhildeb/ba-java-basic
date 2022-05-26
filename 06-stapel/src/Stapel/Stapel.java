@@ -1,4 +1,4 @@
-package Stapel;
+package stapel;
 
 //Importieren der Klasse ArrayList aus dem Paket java.util
 import java.util.ArrayList;

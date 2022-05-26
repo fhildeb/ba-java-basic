@@ -1,4 +1,4 @@
-package Funktionen;
+package funktionen;
 
 class WuerfelTest {
 	public static void main(String[] args) {

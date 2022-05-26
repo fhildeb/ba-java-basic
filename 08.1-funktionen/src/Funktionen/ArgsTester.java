@@ -1,4 +1,4 @@
-package Funktionen;
+package funktionen;
 
 class ArgsTester {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Display;
+package display;
 
 public class Punkt {
 	// Deklarieren der Variablen

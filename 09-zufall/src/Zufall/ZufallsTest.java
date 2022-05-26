@@ -1,4 +1,4 @@
-package Zufall;
+package zufall;
 
 public class ZufallsTest {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Malen;
+package malen;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

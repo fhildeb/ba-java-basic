@@ -1,4 +1,4 @@
-package Rechteck;
+package rechteck;
 
 public class Punkt {
 	// Deklarieren der Variablen

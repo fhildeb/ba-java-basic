@@ -1,4 +1,4 @@
-package VierGewinnt;
+package viergewinnt;
 
 import javafx.event.ActionEvent;
 import javafx.geometry.Insets;

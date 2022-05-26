@@ -1,4 +1,4 @@
-package Stapel;
+package stapel;
 
 //um interaktive Eingaben zu ermoeglichen
 import java.io.*;

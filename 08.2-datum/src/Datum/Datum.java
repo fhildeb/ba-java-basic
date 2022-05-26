@@ -1,4 +1,4 @@
-package Datum;
+package datum;
 
 class Datum {
 	private int tag = 0, monat = 0, jahr = 0;

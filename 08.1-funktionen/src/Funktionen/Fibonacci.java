@@ -1,4 +1,4 @@
-package Funktionen;
+package funktionen;
 
 class Fibonacci {
 

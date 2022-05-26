@@ -1,4 +1,4 @@
-package Rechteck;
+package rechteck;
 
 import java.awt.*;
 import java.awt.event.*;

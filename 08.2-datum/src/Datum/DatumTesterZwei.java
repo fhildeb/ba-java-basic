@@ -1,4 +1,4 @@
-package Datum;
+package datum;
 
 public class DatumTesterZwei {
 

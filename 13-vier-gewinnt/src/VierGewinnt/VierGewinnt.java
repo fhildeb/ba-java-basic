@@ -1,4 +1,4 @@
-package VierGewinnt;
+package viergewinnt;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

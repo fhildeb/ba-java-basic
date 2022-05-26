@@ -1,4 +1,4 @@
-package RateSpiel;
+package ratespiel;
 
 /**
  * Rate-Spiel mit Benutzereingabe an der Konsole

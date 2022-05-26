@@ -1,4 +1,4 @@
-package Funktionen;
+package funktionen;
 
 public class Rueckwaerts {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Zufall;
+package zufall;
 
 public class Zufall {
 	long value = 0;

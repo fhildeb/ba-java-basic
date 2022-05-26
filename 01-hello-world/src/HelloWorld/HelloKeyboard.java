@@ -1,4 +1,4 @@
-package HelloWorld;
+package helloworld;
 
 public class HelloKeyboard {
 	@SuppressWarnings("resource")

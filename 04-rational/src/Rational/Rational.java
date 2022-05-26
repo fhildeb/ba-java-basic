@@ -1,4 +1,4 @@
-package Rational;
+package rational;
 
 public class Rational {
 	// Deklarieren von Variablen

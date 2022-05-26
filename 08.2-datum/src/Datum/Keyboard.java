@@ -1,4 +1,4 @@
-package Datum;
+package datum;
 
 import java.io.*;
 

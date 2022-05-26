@@ -1,4 +1,4 @@
-package TicTacToe;
+package tictactoe;
 
 /**
  * Die Klasse dient zum Start des Spiels TicTacToe.

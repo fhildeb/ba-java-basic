@@ -1,4 +1,4 @@
-package Zufall;
+package zufall;
 
 import javax.swing.*;
 import java.awt.*;
