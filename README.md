@@ -38,21 +38,21 @@ The course covered fundamental computer science concepts and programming techniq
 6. Interactive ArrayList-based Stack Implementation
 7. Date Representation and Control
 8. Array and Date Manipulation
-   8.1.1 Command Line Parameters Printer
-   8.1.2 Fibonacci Sequence Generator
-   8.1.3 Reverse Command Line Output
-   8.1.4 Addition of CLI Parameters
-   8.1.5 Dice Simulation and Statistics
-   8.2 Advanced Date String Processing
+   - Command Line Parameters Printer
+   - Fibonacci Sequence Generator
+   - Reverse Command Line Output
+   - Addition of CLI Parameters
+   - Dice Simulation and Statistics
+   - Advanced Date String Processing
 9. Lehmer Random Number Generator
 10. JavaFX GUI Applications
-    10.1 Window Management
-    10.2 Canvas Setup
-    10.3 Interactive Mouse-Drawing Application
+    - Window Management
+    - Canvas Setup
+    - Interactive Mouse-Drawing Application
 11. Interactive Number Guessing Game
 12. Creation of Animations
-    12.1 Rectangle Rotation and Movement
-    12.2 Interactive Ball Bouncing Animation
+    - Rectangle Rotation and Movement
+    - Interactive Ball Bouncing Animation
 13. Interactive Connect Four with GUI
 
 ## Tools
