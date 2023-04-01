@@ -2,7 +2,7 @@
 
 ## Randomness Difficulty
 
-True randomness is difficult to achieve with computers because they execute algorithms based on precise rules. [Lehmer's linear congruence](https://en.wikipedia.org/wiki/Lehmer_random_number_generator) method provides a simple yet effective way to generate seemingly random numbers by using certain constants, making the resulting numbers appear random and uniformly distributed within a specific range.
+True randomness is difficult for computers because they execute algorithms based on precise rules. [Lehmer's linear congruence](https://en.wikipedia.org/wiki/Lehmer_random_number_generator) method provides a simple yet effective way to generate seemingly random numbers by using certain constants, making the resulting numbers appear random and uniformly distributed within a specific range.
 
 ## ZufallsTestFenster (Main)
 

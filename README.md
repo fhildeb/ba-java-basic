@@ -45,7 +45,10 @@ The course covered fundamental computer science concepts and programming techniq
    8.5 Dice Simulation and Statistics
 9. Advanced Date String Processing
 10. Lehmer Random Number Generator
-11.
+11. JavaFX GUI Applications
+    11.1 Window Management
+    11.2 Canvas and Styling Setup
+    11.3 Interactive Mouse-Drawing Application
 12.
 13.
 
