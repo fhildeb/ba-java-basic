@@ -53,7 +53,7 @@ The course covered fundamental computer science concepts and programming techniq
 12. Creation of Animations
     12.1 Rectangle Rotation and Movement
     12.2 Interactive Ball Bouncing Animation
-13.
+13. Interactive Connect Four with GUI
 
 ## Tools
 
