@@ -34,7 +34,7 @@ The course covered fundamental computer science concepts and programming techniq
 2. 2D Point Manipulation & Visualization
 3. Rectangle Creation, Manipulation & Visualization
 4. Rational Number Operations & Simplification
-5.
+5. Tic-Tac-Toe with Intelligent Opponent
 6.
 7.
 8.

@@ -1,5 +1,7 @@
 # SpielStarter (Main)
 
+This program implements the classic game of Tic-Tac-Toe, allowing a human player to compete against a computer opponent. The game uses a 3 by 3 grid, and players take turns marking the grid with their respective symbols. The program keeps track of the number of moves made and can determine if a player has won or if the game is a draw. It also features an optimal strategy for the computer opponent, ensuring the computer cannot lose. The current state of the game can be displayed on the console.
+
 ## Terminal Output
 
 ```bash
