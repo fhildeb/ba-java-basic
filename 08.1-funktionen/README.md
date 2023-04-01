@@ -29,26 +29,17 @@ This program generates a Fibonacci sequence up to a specified length and stores 
 3
 5
 8
-13
-21
-34
-55
-89
-144
-233
-377
-610
-987
-1597
-2584
+...
 4181
 ```
 
 ## Rueckwaerts (Main)
 
+This program takes command line parameters and prints them in reverse order, reversing the characters of each parameter as well.
+
 ### Terminal Output
 
-Passed Arguments: argEins argZwei argDrei
+Passed Arguments: `argEins` `argZwei` `argDrei`
 
 ```bash
 ierDgra iewZgra sniEgra
@@ -58,7 +49,7 @@ ierDgra iewZgra sniEgra
 
 ### Terminal Output
 
-Passed Arguments: 15 12 1998
+Passed Arguments: `15` `12` `1998`
 
 ```bash
 2025
