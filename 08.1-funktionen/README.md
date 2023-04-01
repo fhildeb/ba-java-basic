@@ -47,6 +47,8 @@ ierDgra iewZgra sniEgra
 
 ## SummeVon (Main)
 
+This program outputs the sum of the integers passed as command line parameters.
+
 ### Terminal Output
 
 Passed Arguments: `15` `12` `1998`
@@ -56,6 +58,8 @@ Passed Arguments: `15` `12` `1998`
 ```
 
 ## WuerfelTest (Main)
+
+This program simulates a dice using a randomized math method and generates a specified number of throws. It stores the results in an int array and performs statistical evaluations, such as sum, average, relative frequencies, and standard deviation.
 
 ### Terminal Output
 
