@@ -16,15 +16,11 @@ The course covered fundamental computer science concepts and programming techniq
 - String Manipulation and Type Casting
 - Visibility Modifiers and Recursion
 - Inheritance and Class Hierarchies
-- Single vs. Multiple Inheritance
 - Polymorphism and Abstract Classes
 - Interfaces and Delegation
 - Unsigned and Signed Number Computation
-- The Two's Complement and Bit Operators
-- Representation of Floating-Point Numbers
 - Algorithm, Program, and Binary Coding Concepts
 - UML Class Representation and Attribute Agreement
-- Value and Reference Types
 - Conversion of Reference Types
 - Java Web Services
 
