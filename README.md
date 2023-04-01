@@ -50,7 +50,10 @@ The course covered fundamental computer science concepts and programming techniq
     10.2 Canvas Setup
     10.3 Interactive Mouse-Drawing Application
 11. Interactive Number Guessing Game
-12.
+12. Creation of Animations
+    12.1 Rectangle Rotation and Movement
+    12.2 Interactive Ball Bouncing Animation
+13.
 
 ## Tools
 
