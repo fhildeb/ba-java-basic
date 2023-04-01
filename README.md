@@ -1,8 +1,8 @@
 # ba-java-course-beginners
 
-HSMW BA Java Course for Beginners from the University of Applied Science Mittweida in the subject Java that took place in 2017.
+HSMW BA Java Course for Beginners from the University of Applied Science Mittweida that took place in 2017.
 
-> **_NOTE:_** The commentary and filenames might appear in German.
+> **_NOTE:_** The code commentary, folders, and filenames might appear in German.
 
 ## Course Content
 
