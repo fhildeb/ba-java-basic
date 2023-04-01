@@ -36,7 +36,7 @@ The course covered fundamental computer science concepts and programming techniq
 4. Rational Number Operations & Simplification
 5. Tic-Tac-Toe with Intelligent Opponent
 6. Interactive ArrayList-based Stack Implementation
-7.
+7. Date Representation and Control
 8.
 9.
 10.
