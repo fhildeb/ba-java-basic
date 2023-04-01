@@ -1,5 +1,7 @@
 # PunktTester (Main)
 
+This program is designed to model and manipulate points on a two-dimensional plane. It allows users to create points with specified or default coordinates, access and modify the coordinates, and compare if two points are the same. Additionally, the program provides a graphical representation of the points using a Display class, which can show or hide points in a coordinate system. Users can also create a third point with custom coordinates and move an existing point to the new point's location to verify if both points are now identical on the plane.
+
 ## GUI
 
 ![PunktTester GUI](../img/02-display.png)
@@ -20,9 +22,9 @@ Wert Punkt 1: (1.0|2.0)
 Vergleichen P1 mit P2:
 Beide Punkte sind identisch
 
-Geben sie bitte einen X-Wert fuer P5 an: 
+Geben sie bitte einen X-Wert fuer P5 an:
 5
-Geben sie bitte einen Y-Wert fuer P5 an: 
+Geben sie bitte einen Y-Wert fuer P5 an:
 5
 
 Wert Punkt 1: (5.0|5.0)

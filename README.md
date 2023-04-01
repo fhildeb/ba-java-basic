@@ -31,7 +31,7 @@ The course covered fundamental computer science concepts and programming techniq
 ## Repository Content
 
 1. Function Structure & Keyboard Inputs
-2.
+2. 2D Point Manipulation & Visualization
 3.
 4.
 5.
