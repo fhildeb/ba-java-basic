@@ -32,7 +32,7 @@ The course covered fundamental computer science concepts and programming techniq
 
 1. Function Structure & Keyboard Inputs
 2. 2D Point Manipulation & Visualization
-3.
+3. Rectangle Creation, Manipulation & Visualization
 4.
 5.
 6.
