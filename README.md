@@ -39,7 +39,7 @@ The course covered fundamental computer science concepts and programming techniq
 7. Date Representation and Control
 8. Diverse Array Manipulation
    8.1 Command Line Parameters Printer
-
+   8.2 Fibonacci Sequence Generator
 9.
 10.
 11.

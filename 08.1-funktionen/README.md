@@ -8,7 +8,7 @@ This program prints command line parameters in the order they were provided or i
 
 ### Terminal Output
 
-Passed Arguments: argEins argZwei argDrei
+Passed Arguments: `argEins` `argZwei` `argDrei`
 
 ```bash
 argEins
@@ -18,11 +18,12 @@ argDrei
 
 ## Fibonacci (Main)
 
+This program generates a Fibonacci sequence up to a specified length and stores the values in a long array. It outputs the values in a table format and explores the efficiency and limitations of calculating large Fibonacci numbers.
+
 ### Terminal Output
 
 ```bash
 0
-1
 1
 2
 3
