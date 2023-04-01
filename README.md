@@ -44,7 +44,7 @@ The course covered fundamental computer science concepts and programming techniq
    8.4 Addition of CLI Parameters
    8.5 Dice Simulation and Statistics
 9. Advanced Date String Processing
-10.
+10. Lehmer Random Number Generator
 11.
 12.
 13.
