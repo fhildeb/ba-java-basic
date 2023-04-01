@@ -1,5 +1,7 @@
 # RationalTester (Main)
 
+This program provides a Rational class for representing and manipulating rational numbers. The class enables users to perform basic arithmetic operations, compare rational numbers, find the greatest common divisor, and simplify fractions. It also allows users to convert rational numbers to decimals and offers symmetrical class methods for arithmetic operations.
+
 ## Terminal Output
 
 ```bash
@@ -20,6 +22,6 @@ R2 plus R3 = 32/6
 R2 minus R3 = 16/6
 R2 mal R3 = 32/6
 R2 durch R3 = 24/8
-Vergleich von R4 auf den Wert Null und Eins: 
+Vergleich von R4 auf den Wert Null und Eins:
 R4 ist gleich Eins
 ```
