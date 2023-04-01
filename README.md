@@ -43,7 +43,7 @@ The course covered fundamental computer science concepts and programming techniq
    8.3 Reverse Command Line Output
    8.4 Addition of CLI Parameters
    8.5 Dice Simulation and Statistics
-9.
+9. Advanced Date String Processing
 10.
 11.
 12.
