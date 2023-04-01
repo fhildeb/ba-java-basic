@@ -1,6 +1,12 @@
-# ArgsTester (Main)
+# Diverse Array Manipulation
 
-## Terminal Output
+These programs showcase various array manipulation and processing techniques, from handling command line parameters and generating sequences to simulating dice throws and performing statistical analysis.
+
+## ArgsTester (Main)
+
+This program prints command line parameters in the order they were provided or in reverse order if specified.
+
+### Terminal Output
 
 Passed Arguments: argEins argZwei argDrei
 
@@ -10,9 +16,9 @@ argZwei
 argDrei
 ```
 
-# Fibonacci (Main)
+## Fibonacci (Main)
 
-## Terminal Output
+### Terminal Output
 
 ```bash
 0
@@ -37,29 +43,29 @@ argDrei
 4181
 ```
 
-# Rueckwaerts (Main)
+## Rueckwaerts (Main)
 
-## Terminal Output
+### Terminal Output
 
 Passed Arguments: argEins argZwei argDrei
 
 ```bash
-ierDgra iewZgra sniEgra 
+ierDgra iewZgra sniEgra
 ```
 
-# SummeVon (Main)
+## SummeVon (Main)
 
-## Terminal Output
+### Terminal Output
 
 Passed Arguments: 15 12 1998
 
 ```bash
-2025 
+2025
 ```
 
-# WuerfelTest (Main)
+## WuerfelTest (Main)
 
-## Terminal Output
+### Terminal Output
 
 ```bash
 Summe: 1773

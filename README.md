@@ -37,7 +37,9 @@ The course covered fundamental computer science concepts and programming techniq
 5. Tic-Tac-Toe with Intelligent Opponent
 6. Interactive ArrayList-based Stack Implementation
 7. Date Representation and Control
-8.
+8. Diverse Array Manipulation
+   8.1 Command Line Parameters Printer
+
 9.
 10.
 11.
